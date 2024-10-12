@@ -27,7 +27,7 @@
     "@11ty/is-land": "^4.0.0",
     "@hyrious/esbuild-plugin-http": "^0.1.5",
     "@luncheon/esbuild-plugin-gzip": "^0.1.0",
-    "concurrently": "^8.2.2",
+    "concurrently": "^9.0.1",
     "esbuild": "^0.19.12",
     "esbuild-plugin-manifest": "^1.0.3",
     "esbuild-plugin-purgecss-2": "^1.0.1",
