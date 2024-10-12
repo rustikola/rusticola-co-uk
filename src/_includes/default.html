@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" color-mode="user">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="{{ '/app/style.css' | hash }}" />
+  <style>{% getBundle "css" %}</style>
+  <script type="module" defer src="{{ '/app/is-land.js' | hash }}"></script>
+</head>
+<body>
+  <header data-density-shift>
+    <h1>{{ title }}</h1>
+  </header>
+  <main>
+  {{ content }}
+  </main>
+  <footer><p><strong><small>&copy; Made by {{ author }} 2024</small></strong></p></footer>
+</body>
+</html>

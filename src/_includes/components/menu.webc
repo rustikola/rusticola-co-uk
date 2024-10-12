@@ -1,0 +1,7 @@
+<template webc:type="11ty" 11ty:type="liquid">
+  <nav>
+    <ul>{% for link in meta.nav %}
+      <li><a href="{{ link.href | url }}">{{ link.text }}</a></li>{% endfor %}
+    </ul>
+  </nav>
+</template>
